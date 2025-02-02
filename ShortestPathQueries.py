@@ -13,7 +13,7 @@ class Solution(object):
         graph = {i: [i + 1] for i in range(n - 1)}  # Each city i has a road to i+1
         graph[n - 1] = []  # Last city has no outgoing roads
 
-        result = []  # Store shortest path results after each query
+        result = []  # Store shortest path results after each query      
 
         def bfs():
             """ Performs BFS to find the shortest path from city 0 to city (n-1). """
