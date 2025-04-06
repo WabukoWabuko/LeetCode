@@ -5,4 +5,4 @@ class Solution:
               if nums[j] == target - nums[i]:
                   return [i, j]
       # Return an empty list if no solution is found
-      return []
+      return [] 
